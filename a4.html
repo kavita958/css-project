@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bouncing ball animation</title>
+        <style>
+            body{background-color: #222;
+            display: flex;
+        justify-content: center;
+    align-items: center;
+height: 100vh;
+margin: 0;}
+.ball{width: 60px;
+height: 60px;
+background-color: #00ffcc;
+border-radius: 50%;
+animation: bounce;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+animation-timing-function: ease-in-out;}
+@keyframes bounce{
+    from{transform: translateY(-50px);}
+    to{
+        transform: translatey(200px);
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="ball">al</div>
+    </body>
+</html>

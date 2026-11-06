@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>project</title>
+        <style>
+            *{margin: 0;
+            padding: 0;
+        box-sizing: border-box;}
+        body{height: 100vh;
+        display: flex;
+    justify-content: center;
+align-items: center;
+font-family: cursive;
+background: linear-gradient(-45deg,
+#d1b037,
+#e73c7e,
+#23a6d5,
+#23d5ab);
+background-size: 400% 400%;
+animation: gradientmove 8s ease infinite;}
+h1{color: chartreuse;
+font-size: clamp(2rem,6vw,4rem);
+text-align: center;
+text-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+@keyframes gradientmove{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-color: 0% 50%;}
+}
+        </style>
+    </head>
+    <body>
+        <h1>welcome to my website</h1>
+    </body>
+</html>
